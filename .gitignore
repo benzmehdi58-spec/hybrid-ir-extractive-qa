@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Node / Frontend build & caches
+node_modules/
+dist/
+.vite/
+*.local
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.production
+
+# Large model weights, indexes & embeddings (reproducible via scripts/download_models.py)
+*.safetensors
+*.bin
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.pkl
+*.npz
+module 1 models/corpus_index.json
+glove*.txt
+glove*.zip
+
+# OS / Editor
+.DS_Store
+Thumbs.db
